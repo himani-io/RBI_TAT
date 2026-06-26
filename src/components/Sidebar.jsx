@@ -1,6 +1,15 @@
 import React from "react";
 import {FiGrid, FiClock, FiBarChart2, FiSettings, FiShield,} from "react-icons/fi";
 
+function SidebarItem({ icon, text, active }) {
+  return (
+    <div className={`sidebar-item ${active ? "active" : ""}`}>
+      <span className="sidebar-item-icon">{icon}</span>
+      <span>{text}</span>
+    </div>
+  );
+}
+
 function Sidebar() {
   return (
     <>
