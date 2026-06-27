@@ -21,7 +21,9 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="sidebar-top">
         <div className="logo">
-          <div className="logo-icon">P</div>
+          <div className="logo-icon">
+            <FiShield size={20} style={{ strokeWidth: 2.5 }} />
+          </div>
           <div className="logo-text">
             <h1>PayGuard AI</h1>
             <p>RBI Hackathon</p>
