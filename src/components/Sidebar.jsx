@@ -11,11 +11,12 @@ import {
   FiUsers,
 } from "react-icons/fi";
 
+
 function SidebarItem({ icon, text, active, onClick }) {
   return (
     <div className={`sidebar-item ${active ? "active" : ""}`} onClick={onClick}>
       <span className="sidebar-item-icon">{icon}</span>
-      <span>{text}</span>
+      <span className="sidebar-item-text">{text}</span>
     </div>
   );
 }

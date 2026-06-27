@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import Sidebar from "../components/Sidebar.jsx";
-import Navbar from "../components/Navbar.jsx";
-import KPICards from "../components/KPICards.jsx";
-import ComplaintForms from "../components/ComplaintForms.jsx";
-import ResultCards from "../components/ResultCard.jsx";
-import HistoryTable from "../components/HistoryTable.jsx";
+import { useState } from "react";
+
+import KPICards from "../components/KPICards";
+import ComplaintForms from "../components/ComplaintForms";
+import ResultCards from "../components/ResultCard";
+import HistoryTable from "../components/HistoryTable";
 
 function Dashboard() {
   const [evaluationResult, setEvaluationResult] = useState(null);
@@ -30,5 +29,6 @@ function Dashboard() {
     </div>
   );
 }
+
 
 export default Dashboard;
