@@ -1,12 +1,12 @@
 import React from "react";
 import { Bell, Settings, UserCircle } from "lucide-react";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-left">
-        <h1>Complaint Dashboard</h1>
-        <p>Monitor and resolve complaints efficiently.</p>
+        <h1>Compliance Dashboard</h1>
+        <p>Monitor real-time payment failures and SLA turnaround tracking.</p>
       </div>
 
       <div className="navbar-right">
@@ -22,7 +22,7 @@ function Navbar() {
         <div className="profile">
           <UserCircle size={28} className="profile-icon" />
           <div className="profile-info">
-            <span className="profile-name">Admin</span>
+            <span className="profile-name">Compliance Admin</span>
             <span className="profile-role">Super User</span>
           </div>
         </div>
@@ -30,5 +30,3 @@ function Navbar() {
     </header>
   );
 }
-
-export default Navbar;
