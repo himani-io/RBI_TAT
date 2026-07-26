@@ -6,7 +6,7 @@ export const mockHistoryData = [
     priority: "Critical",
     status: "Open",
     timeLeft: "1 day left",
-    penalty: "₹100",
+    penalty: "₹1000",
   },
   {
     id: "#4586",
